@@ -1,13 +1,8 @@
 import "./App.css";
+import { Image } from "./Image";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>Meowwwwwwwwwwwww</p>
-      </header>
-    </div>
-  );
+  return <Image />;
 }
 
 export default App;
