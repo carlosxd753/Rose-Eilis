@@ -8,7 +8,7 @@ export const Image = () => {
     fetch("https://api.spotify.com/v1/me/albums?limit=50&market=US", {
       headers: {
         Authorization:
-          "Bearer BQDLgvAph7xVIta0aT2qehhj22-SO4Vh2S4HqtfrfkLqG3YEZqjL58eUNZMTPEW3h59vf69JTzqWu-pTVEQ17t511_BPC7_kDAa7jbk_6lQCrU_fnqC7cpC_TvJmjmjUz7LeRUEwxqAbNKRxMYb43eyIFUL0nyZgylYkwM26T5PMAPM6VD0VhBn4IDFEDkC-JyaTVcMY2A",
+          "Bearer BQCQnbGlnkVkyEdG7QOCVBto3gbwkTkegYX3AgxJRQGPpTM7tBxyVDjyCq4BktAOIokjhJ0oIxwyWSBTOolwLkLKOKaEPCNNqQquYZVG2Yeb_EOdCxl7WDGrglV9J",
       },
     })
       .then((response) => response.json())
